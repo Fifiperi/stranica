@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Mala's WebSite </title>
+<script>
+
+function paris() 
+{
+document.body.style.backgroundImage="url('jedan.jpg')";
+document.getElementById('paristekst').innerHTML= "She is one of the hardest working 20yo on this plant(maybe even the galaxy),Ajsa is also used as a synonym for hard working in many languages,aside for studying to apply for P.A. school, She also works at a hospital as a nurse assistent";
+document.getElementById('parish2').innerHTML="SHE IS A BEAST!";
+document.getElementById('parisdugme').remove();
+}
+
+function london()
+{
+document.body.style.backgroundImage="url('dva.jpg')";
+document.getElementById('londontekst').innerHTML="one of her main hobbies is sleeping(ALOT),she likes spending quality time with her family, going out sometimes,and mainly just enjoying life to the fullest";
+document.getElementById('londonh2').innerHTML="SHE IS AMAZING!";
+document.getElementById('londondugme').remove();
+}
+
+function rim()
+{
+document.body.style.backgroundImage="url('tri.jpg')";
+document.getElementById('rimtekst').innerHTML="She knows what she wants in life , she stresses out a lot beacuse she cares, she puts so much pressure on herself because she too knows that she is destined for greatness";
+document.getElementById('rimh2').innerHTML="SHE IS CARING!";
+document.getElementById('rimdugme').remove();
+}
+
+function newyork()
+{
+document.body.style.backgroundImage="url('cetri.jpg')";
+document.getElementById('newyorktekst').innerHTML="She is that once in a life time person, uncommon among uncommon i want to see her win, because she deserves it";
+document.getElementById('newyorkh2').innerHTML="SHE IS BEAUTIFUL!";
+document.getElementById('newyorkdugme').remove();
+}
+
+</script>
+</head>
+<style>
+html{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+button {
+position: absolute;
+bottom: 20px;
+font-size: 12px;
+color: black;
+background-color:rgb(213, 63, 171);
+left: 100px;
+width: 100px;
+height: 30px;
+border-radius: 15px;
+}
+
+p {
+position: absolute;
+left: 3px;
+text-align: center;
+color: black;
+font-size: 16px;
+top: 300px;
+}
+
+h1 {
+position: relative;
+font-size: 35px;
+color: black;
+text-align: center;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img {
+top: 0px;
+position: absolute;
+height: 220px;
+width:300px;
+border-radius: 15px;
+}
+
+.img1 {
+position: absolute;
+top: 20px;
+width: 350px;
+height: 200px;
+border-radius: 15px;
+}
+
+h2 {
+position: relative;
+top: 250px;
+color: black;
+font-size: 20px;
+text-align: center;
+}
+
+body {
+background-image: url('travel.jpg');
+}
+
+.gornjiokvir {
+position: absolute;
+top: 10px;
+left: 25px;
+right: 10px;
+height: 120px;
+width: 1440px;
+background-color:rgb(233, 174, 222);
+border-radius: 15px;
+}
+
+.parisokvir {
+position: absolute;
+left: 10px;
+top: 280px;
+width: 300px;
+height: 450px;
+background-color: rgb(233, 174, 222);
+border-radius: 15px;
+}
+
+.londonokvir {
+position: absolute;
+top: 280px;
+left: 390px;
+width: 300px;
+height: 450px;
+background-color:rgb(233, 174, 222);
+border-radius: 15px;
+}
+
+.rimokvir {
+position: absolute;
+top: 280px;
+left: 780px;
+width: 300px;
+height: 450px;
+background-color: rgb(233, 174, 222);
+border-radius: 15px;
+}
+
+.newyorkokvir {
+position: absolute;
+top: 280px;
+left: 1180px;
+width: 300px;
+height: 450px;
+background-color: rgb(233, 174, 222);
+border-radius: 15px;
+}
+
+</style>
+<body>
+<div class=gornjiokvir> <h1>Mala's web-stranica</h1>
+</div>
+
+<div class=parisokvir> <h2 id="parish2"> Work/School </h2> 
+   <img src="paris.jpg" class=img>
+   <p id=paristekst> </p>
+          <button type="button" class=button id="parisdugme" onclick="paris()"> Pročitaj više... </button>
+</div>
+
+<div class=londonokvir> <h2 id="londonh2"> Hobbies </h2> 
+   <img src="london.jpg" class=img>
+   <p id=londontekst> </p>
+          <button type="button" class=button id="londondugme" onclick="london()"> Pročitaj više... </button>
+</div>
+
+<div class=rimokvir> <h2 id="rimh2"> About her  </h2>
+   <img src="rim.jpg" class=img>
+   <p id=rimtekst> </p>
+          <button type="button" class=button id="rimdugme" onclick="rim()"> Pročitaj više... </button>
+</div>
+
+<div class=newyorkokvir> <h2 id="newyorkh2"> My thoughts about her </h2> 
+   <img src="newyork.jpg" class=img>
+   <p id=newyorktekst> </p>
+          <button type="button" class=button id="newyorkdugme" onclick="newyork()"> Pročitaj više... </button>
+</div>
+
+</body>
+</html>
